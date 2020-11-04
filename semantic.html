@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Resume</title>
+    
     <meta charset="UTF-8">
     <meta name="description" content="Website to display the resume of Sumil jain ">
     <meta name="keywords" content="Sumil jain, Resume, Portfolio, sumil education, sumil skills, sumil projects">
     <meta name="author" content="Sumil Jain">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    
-    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="./assests/images/sj.png" type="image" >
 
-
 </head>
 <body>
-    <h2> Download <a href="./download/Sumil jain.pdf" download="" > RESUME</a></h2>
-    <!-- LOGO -->
-    <a href="./index.html"><img src="./assests/images/sj.png" alt="sumil jain logo" width="200px" height="200px" title="sj logo" ></a>
-    <h1 >Sumil jain</h1>
-    <!--              Profile Pic  Section                           -->
-    <div>
+    <header>
         
+        <h2> Download <a href="./download/Sumil jain.pdf" download="" > RESUME</a></h2>
+        
+        <!-- LOGO -->
+       <a href="./symantic.html"> <img src="./assests/images/sj.png" alt="sumil jain logo" width="200px" height="200px" title="sj logo" ></a>
+       <ul style="display: inline;" >
+           <li><a href="./symantic.html"> Home</a></li>
+           <li><a href="#main"> About</a></li>
+           <li><a href="#education"> Education</a></li>
+           <li><a href="#skills"> Skills</a></li>
+           <li><a href="#projects"> Projects</a></li>
 
-        <img src="./assests/images/sumil jain.jpg" alt=" sumil jain profile pictures" width="250px" height="250px" title="profile picture" >
-        <br><span> </span>
+       </ul>
+        
+    </header>
+    
+    <main id="main">
+
+
+
+        <!-- h2->heading   
+            h4-> subheading
+        -->
+        <span 
+            style="display :block;
+            font-size :32px;
+            font-weight: 700;
+            height :37px;
+            margin-block-end :21.44px;
+            margin-block-start :21.44px;
+            width :816px;">
+                Sumil jain
+        </span>
+        
+        
+        <!--              Profile Pic  Section                           -->
+        <div>
+            
+    
+            <img src="./assests/images/sumil jain.jpg" alt=" sumil jain profile pictures" width="250px" height="250px" title="profile picture" >
+            <br>
+            <hr>
+            <span style="display: block;
+                        font-size: 1.5em;
+                        margin-block-start: 0.83em;
+                        margin-block-end: 0.83em;
+                        font-weight: bold;" >
+                        IT UG || PROBLEM SOLVER || PYHTON || JAVASCRIPT
+            </span>
+            <span style="display: block;
+                        font-size: 1.17em;
+                        font-weight: bold;">
+                        Vidyavardhini's College of Engineering and Technology
+            </span>
+            <span style="display: block;
+                        font-size: 1.17em;
+                        font-weight: bold;">
+                        Mumbai, Maharashtra, India
+            </span>
+            <span style="display: block;
+                        font-size: 1.17em;
+                        font-weight: bold;"> 
+                            www.linkedin.com/in/sumiljain0498 
+            </span>
+        </div>
         <hr>
-        <h2>IT UG || PROBLEM SOLVER || PYHTON || JAVASCRIPT</h2>
-        <h3>Vidyavardhini's College of Engineering and Technology</h3>
-        <h3>Mumbai, Maharashtra, India</h3>
-        <h3>www.linkedin.com/in/sumiljain0498 </h3>
-    </div>
-    <hr>
 
     <!--              About  Section                           -->
     <dl>
@@ -47,9 +96,7 @@
     </dl>
     <hr>
 
-    <!--              EDUCATION  Section                           -->
-    
-    <dl>
+    <dl id="education">
         <dt><h2>Education</h2></dt>
         <dd>
             <ul>
@@ -57,21 +104,52 @@
                     <h4> Vidyavardhini's College of Engineering and Technology</h4>
                     <p> Degree NameBachelor's degreeField Of StudyInformation Technology</p> 
                     <p> Dates attended or expected graduation 2016 – 2020</p>
-                    <h5>CGPA: 7.98/10</h5>                       
+                    <span 
+                        style=
+                        "display: block;
+                        font-size: 0.83em;
+                        margin-block-start: 1.67em;
+                        margin-block-end: 1.67em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        font-weight: bold;">
+                        CGPA: 7.98/10
+                    </span>               
                 </li>
                 
                 <li>
                     <h4>XII (SENIOR SECONDARY), SCIENCE</h4>
                     <p>HSC BOARD (Shri Tikamdas Purshotam Bhatia College of Science)</p>
                     <p>YEAR OF COMPLETION: 2016</p>
-                    <h5>PERCENTAGE: 71.60%</h5>
+                    <span 
+                        style=
+                        "display: block;
+                        font-size: 0.83em;
+                        margin-block-start: 1.67em;
+                        margin-block-end: 1.67em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        font-weight: bold;">
+                        PERCENTAGE: 71.60%
+                    </span>
                 </li>
 
                 <li>
                     <h4>X (SECONDARY)</h4>
                     <p> SSC BOARD (The Saraswati Vidyalaya)</p>
                     <p>YEAR OF COMPLETION: 2014</p>
-                    <h5>PERCENTAGE: 81%</h5>
+                    <span 
+                        style=
+                        "display: block;
+                        font-size: 0.83em;
+                        margin-block-start: 1.67em;
+                        margin-block-end: 1.67em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        font-weight: bold;">
+                        PERCENTAGE: 81%
+                    </span>
+                    
                 </li>
             </ul>
         </dd>
@@ -79,7 +157,7 @@
     <hr>
 
     <!--              SKILL  Section                           -->
-    <dl>
+    <dl id="skills">
         <dt><h2>Skills:</h2> </dt>
         <dd><h4>Programming Language</h4>
             <ul>
@@ -120,7 +198,7 @@
     </dl>
     <hr>
     <!--              PROJECTS                                -->
-    <dl>
+    <dl id="projects">
         <dt><h2>Projects:</h2></dt>
         <dd>
             <ul>
@@ -151,10 +229,11 @@
             </ul>
         </dd>
     </dl>
-    <hr>
-    <h1>click to semantic <a href="./semantic.html"> Resume </a></h1>
+    </main>
+
+    <footer>
+
+    </footer>
     
-
-
 </body>
 </html>
